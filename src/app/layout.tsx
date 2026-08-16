@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -11,30 +11,35 @@ const inter = Inter({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  themeColor: "#07111F",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — ${SITE_TAGLINE}`,
-    template: `%s — ${SITE_NAME}`,
+    default: "LinSera Solutions | Technology That Solves Real Problems",
+    template: "%s",
   },
   description: SITE_DESCRIPTION,
   openGraph: {
-    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    title: "LinSera Solutions | Technology That Solves Real Problems",
     description: SITE_DESCRIPTION,
     url: SITE_URL,
     siteName: SITE_NAME,
-    images: ["/images/og/default.png"],
+    images: ["/images/brand/linsera-logo.png"],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    title: "LinSera Solutions | Technology That Solves Real Problems",
     description: SITE_DESCRIPTION,
-    images: ["/images/og/default.png"],
+    images: ["/images/brand/linsera-logo.png"],
   },
   icons: {
-    icon: "/images/icons/favicon.svg",
+    icon: "/images/brand/linsera-logo.png",
+    apple: "/images/brand/linsera-logo.png",
   },
 };
 
