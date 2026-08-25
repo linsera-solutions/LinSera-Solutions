@@ -38,7 +38,10 @@ export const metadata: Metadata = {
     images: ["/images/brand/linsera-logo.png"],
   },
   icons: {
-    icon: "/images/brand/linsera-logo.png",
+    icon: [
+      { url: "/images/brand/linsera-logo.png", type: "image/png" },
+      { url: "/images/icons/favicon.svg", type: "image/svg+xml" },
+    ],
     apple: "/images/brand/linsera-logo.png",
   },
 };

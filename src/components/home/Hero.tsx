@@ -55,10 +55,10 @@ function LinseraTechnologyVisual() {
           <div className="h-2.5 w-2.5 rounded-full bg-red-500/80" />
           <div className="h-2.5 w-2.5 rounded-full bg-yellow-500/80" />
           <div className="h-2.5 w-2.5 rounded-full bg-green-500/80" />
-          <span className="ml-2 text-xs font-mono text-slate-400">linsera_system_v2.0</span>
+          <span className="ml-2 text-xs font-mono text-slate-400">linsera_solutions</span>
         </div>
         <span className="text-[10px] font-mono tracking-widest text-accentLight uppercase bg-accent/10 px-2 py-0.5 rounded border border-accent/20">
-          SYSTEM PIPELINE
+          ENGINEERING PIPELINE
         </span>
       </div>
 

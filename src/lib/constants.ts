@@ -3,8 +3,8 @@ export const SITE_TAGLINE = "Technology That Solves Real Problems.";
 export const SITE_DESCRIPTION =
   "LinSera Solutions builds practical software, AI-powered products, and digital solutions that help businesses and emerging ventures turn complex challenges into scalable opportunities.";
 
-// Replace with the production domain before launch.
-export const SITE_URL = "https://www.linserasolutions.com";
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://lin-sera-solution.vercel.app";
 
 export const NAV_LINKS = [
   { label: "About", href: "/about" },
@@ -16,5 +16,5 @@ export const NAV_LINKS = [
 
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/company/linsera-solutions",
-  email: "hello@linserasolutions.com",
+  email: "linsera.solutions@gmail.com",
 };

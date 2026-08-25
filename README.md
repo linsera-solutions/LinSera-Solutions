@@ -134,7 +134,7 @@ npm run start
 ## 📬 Contact & Connect
 
 - **Website**: [https://lin-sera-solution.vercel.app/](https://lin-sera-solution.vercel.app/)
-- **Email**: [hello@linserasolutions.com](mailto:hello@linserasolutions.com)
+- **Email**: [linsera.solutions@gmail.com](mailto:linsera.solutions@gmail.com)
 - **LinkedIn**: [LinSera Solutions on LinkedIn](https://www.linkedin.com/company/linsera-solutions)
 
 ---

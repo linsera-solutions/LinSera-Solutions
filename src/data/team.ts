@@ -1,21 +1,22 @@
 import { TeamMember } from "@/types/team";
 
-// Real photographs should replace the `photo` field when available.
-// No fabricated headshots are used — cards render an initials mark until then.
 export const team: TeamMember[] = [
   {
     name: "Laiba Saleem",
     role: "Founder & Full-Stack / AI Engineer",
-    focus: "Full-stack engineering, AI/ML, research and product engineering.",
+    focus:
+      "Technology leadership, full-stack architecture, AI/ML solution engineering, product development, and applied research.",
   },
   {
     name: "Muhammad Awais",
     role: "Co-Founder — Frontend & SEO",
-    focus: "Frontend development, web technologies and SEO.",
+    focus:
+      "Frontend engineering, modern web applications, technical SEO optimization, responsive interfaces, and digital growth.",
   },
   {
     name: "Nida Karamat",
     role: "Frontend Developer",
-    focus: "Frontend development, responsive interfaces and UI implementation.",
+    focus:
+      "Frontend development, responsive web UI implementation, component architecture, and user experience engineering.",
   },
 ];
